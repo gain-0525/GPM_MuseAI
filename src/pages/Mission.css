@@ -1,0 +1,376 @@
+/* =========================
+   공통
+========================= */
+
+.mission-page {
+  min-height: 100vh;
+  background: #f7f5ef;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  color: #2f2f2f;
+}
+
+.mission-content {
+  width: 100%;
+  max-width: 720px;
+  text-align: center;
+}
+
+.mission-subtitle {
+  margin: 0 0 16px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #8a7658;
+}
+
+.mission-content h1 {
+  margin: 0;
+  font-size: 44px;
+  line-height: 1.25;
+  font-weight: 800;
+  color: #2d2d2d;
+}
+
+.mission-description {
+  margin: 24px 0 36px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #666;
+}
+
+/* =========================
+   Intro
+========================= */
+
+.mission-info {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 36px;
+}
+
+.mission-info > div {
+  width: 150px;
+  padding: 20px 16px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.mission-info span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.mission-info strong {
+  display: block;
+  font-size: 20px;
+  color: #333;
+}
+
+.mission-info p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #888;
+}
+
+/* =========================
+   Button
+========================= */
+
+.mission-button {
+  width: 100%;
+  max-width: 360px;
+  padding: 17px 24px;
+  border: none;
+  border-radius: 12px;
+  background: #2f2f2f;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.mission-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* =========================
+   Mission Guide
+========================= */
+
+.mission-guide-page {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.mission-guide-page .mission-description {
+  margin-bottom: 30px;
+}
+
+/* =========================
+   안내 / 제출 카드
+========================= */
+
+.mission-sheet {
+  margin-bottom: 24px;
+  padding: 28px;
+  background: #fff;
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.mission-sheet h2 {
+  margin: 0 0 22px;
+  font-size: 21px;
+}
+
+.mission-sheet ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mission-sheet li {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.mission-sheet li:last-child {
+  border-bottom: none;
+}
+
+.mission-sheet li strong {
+  flex-shrink: 0;
+  font-size: 15px;
+}
+
+.mission-sheet li span {
+  text-align: right;
+  font-size: 15px;
+}
+
+.mission-sheet small {
+  display: block;
+  margin-top: 5px;
+  color: #999;
+  font-size: 12px;
+}
+
+.mission-note {
+  margin: 20px 0 0;
+  padding: 14px;
+  background: #f7f5ef;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #777;
+}
+
+/* =========================
+   Mission List
+========================= */
+
+.mission-list {
+  margin: 40px 0;
+  text-align: left;
+}
+
+.mission-list > h2 {
+  margin: 0 0 18px;
+  font-size: 22px;
+}
+
+.mission-card {
+  position: relative;
+  margin-bottom: 14px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.mission-number {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #9a835f;
+}
+
+.mission-card h3 {
+  margin: 0;
+  padding-right: 60px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.mission-score {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background: #f1eadf;
+  color: #806b4c;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.mission-hint {
+  margin: 12px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #999;
+}
+
+/* =========================
+   Bonus Mission
+========================= */
+
+.bonus-mission {
+  position: relative;
+  margin: 24px 0;
+  padding: 28px;
+  background: #eee8dc;
+  border: 1px solid #ddd2c0;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.bonus-mission .mission-number {
+  color: #8b6b3f;
+}
+
+.bonus-mission h2 {
+  margin: 0 0 16px;
+  font-size: 21px;
+}
+
+.bonus-mission p {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666;
+}
+
+.bonus-mission strong {
+  color: #444;
+}
+
+.bonus-mission .mission-score {
+  background: #fff;
+}
+
+/* =========================
+   제출 방법
+========================= */
+
+.submission-steps {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.submission-steps > div {
+  flex: 1;
+  padding: 16px 10px;
+  background: #f7f5ef;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.submission-steps strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: #9a835f;
+}
+
+.submission-steps span {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #666;
+}
+
+.mission-detail-button {
+  margin-top: 16px;
+  padding: 9px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  color: #666;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.mission-detail-button:hover {
+  background: #f7f5ef;
+  color: #333;
+}
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 600px) {
+  .mission-page {
+    padding: 40px 16px 60px;
+  }
+
+  .mission-content h1 {
+    font-size: 34px;
+  }
+
+  .mission-description {
+    font-size: 15px;
+  }
+
+  .mission-info {
+    gap: 10px;
+  }
+
+  .mission-info > div {
+    width: 130px;
+    padding: 16px 10px;
+  }
+
+  .mission-sheet {
+    padding: 22px 18px;
+  }
+
+  .mission-card {
+    padding: 20px 18px;
+  }
+
+  .mission-card h3 {
+    padding-right: 50px;
+    font-size: 15px;
+  }
+
+  .bonus-mission {
+    padding: 22px 18px;
+  }
+
+  .submission-steps {
+    flex-direction: column;
+  }
+
+  .submission-steps > div {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

@@ -8,6 +8,7 @@ const HomeLayout = () => {
         <div className="nav-content">
           <span className="logo">MuseAI</span>
           <div className="nav-links">
+            <Link to="/mission/guide">Mission</Link>
             <Link to="/about">MuseAI란</Link>
             <Link to="/guide">사용가이드</Link>
             <Link to="/"> Home </Link>
@@ -19,9 +20,7 @@ const HomeLayout = () => {
         <Outlet />
       </main>
 
-      <footer className="footer">
-        © 2025 MuseAI | 개발팀
-      </footer>
+      <footer className="footer">© 2025 MuseAI | 개발팀</footer>
     </div>
   );
 };
